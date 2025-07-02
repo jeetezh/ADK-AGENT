@@ -58,6 +58,6 @@ The AI agent calls MCP tools through FastMCP (`server.py`) to perform the operat
 | `create_table(table, columns)` | `(str, List[str])-> str`                | Create a new table with column definitions.                      |
 | `view_rows(table)`             | `(str)-> Tuple[List[str], List[Tuple]]` | Return column names & all rows.                                  |
 | `insert_row(table, values)`    | `(str, List[Any])-> str`                | Insert a row (not shown in convo but included for completeness). |
-| `delete_row(table, where)`     | `(str, str)-> str`                      | Delete rows that match a WHERE clause.                           |
+| `delete_table(table)`          | `(str)-> str`                           | Delete mentioned table                                           |
 
 ---
