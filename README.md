@@ -21,11 +21,10 @@
 ```
 ADK-AGENT/
 ├─ Database-Agent/
-│  ├─ agent.py          # Launches the ADK web frontend (chat interface)
+│  ├─ agent.py          # Contains agent initiallization and instructions
 │  ├─ server.py         # Hosts FastMCP server that registers database tools
-│  ├─ db_utils.py       # SQLite helper layer (get_conn, create/init helpers)
-│  └─ requirements.txt  # Project Python dependencies
-└─ README.md            # ← you are here
+│  ├─ __init__.py       # Used to call agent 
+└─ README.md            
 ```
 
 ---
