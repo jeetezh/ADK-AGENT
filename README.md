@@ -34,17 +34,9 @@ ADK-AGENT/
 1. **Run the ADK Web Agent**
 
    ```bash
-   python agent.py
+   adk web
    ```
-
    This launches a web-based chat interface (ADK Web) hosted locally.
-
-2. **Start the FastMCP Tool Server** In a separate terminal:
-
-   ```bash
-   python server.py
-   ```
-
    This exposes a set of database tools (via MCP) that the AI agent can call.
 
 3. **Interact with Your AI Agent**
